@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Calculator {
     /**
      * This start point of the program
+     * @param args This start point of the program
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

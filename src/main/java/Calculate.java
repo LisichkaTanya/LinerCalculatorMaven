@@ -3,6 +3,7 @@ public class Calculate {
      * This method allows calculations
      * @param s some string like "-2+2", which was reading from the console and determine which calculation
      *         (addition, subtraction, multiplication, division, or exponentiation) should be performed
+     * @return Return result of calculation
      */
     public double calculating (String s)  {
         /**
@@ -50,6 +51,5 @@ public class Calculate {
         if (actionSign.equals("/")) result = first / second;
         if (actionSign.equals("^")) result = Math.pow(first, second);
         return result;
-        //System.out.println(" = " + result);
     }
 }
