@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -26,6 +27,7 @@ public class Calculator {
             if (exit.equals("y")) break;
             else continue;
         }
+        scanner.close();
     }
 }
 
